@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import { eventBus } from './main.js';
+
 import CountriesList from './components/CountriesList.vue';
 import CountryDetail from './components/CountryDetail.vue';
 import ListComponent from './components/ListComponent.vue';
