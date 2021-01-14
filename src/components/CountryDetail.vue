@@ -1,8 +1,8 @@
-<template>
-  <div v-if='country'>
-      <h3>{{ country.name }}</h3>
-      <p>Capital: {{ country.capital }}</p>
-      <p>Population: {{ country.population.toLocaleString()  }}</p>
+<template lang="html">
+    <div v-if='country'>
+  <h2>{{ country.name }}</h2>
+  <h3>Capital: {{ country.capital }}</h3>
+  <h3>Population: {{ country.population.toLocaleString() }}</h3>
   </div>
 </template>
 
@@ -14,5 +14,4 @@ export default {
 </script>
 
 <style lang="css" scoped>
-
 </style>
