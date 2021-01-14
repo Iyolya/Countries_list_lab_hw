@@ -13,7 +13,7 @@ import { eventBus } from './main.js';
 
 import CountriesList from './components/CountriesList.vue';
 import CountryDetail from './components/CountryDetail.vue';
-import ListComponent from './components/ListComponent.vue';
+// import ListComponent from './components/ListComponent.vue';
 
 export default {
   name: 'app',
@@ -36,7 +36,7 @@ export default {
   components: {
     "countries-list": CountriesList,
     "country-detail": CountryDetail,
-    "list-component": ListComponent
+    // "list-component": ListComponent
   }
 }
 </script>
